@@ -1,0 +1,56 @@
+.article__main-div {
+    display: flex;
+
+.article__right-div {
+    margin-top: 28px;
+    img{
+        width: 119px;
+        height: 56px;
+        margin-bottom: 10px;
+    }
+    .name {
+        width: 259px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #263238;
+        margin-bottom: 8px;
+        margin-right: 105px;
+    }
+    .address {
+        width: 317px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 149.19%;
+        color: #263238;
+        margin-right: 47px;
+        margin-bottom: 11px;
+    }
+}
+
+.article__left-div {
+    .contact{
+        width: 85px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px; 
+        color: #263238;
+        margin-top: 51px;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .phone{
+        width: 269px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 149.19%;
+        color: #263238;
+        margin-right: 492px;
+        margin-bottom: 13px;
+    }
+  }
+}

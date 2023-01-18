@@ -1,0 +1,48 @@
+@import "./variebles";
+.Section1{
+    background: #F7F7F7;
+
+    .section1__div {
+        display: flex;
+    }
+    img{
+        margin-right: 82px;
+        margin-bottom: 70px;
+    }
+    .biography {
+        width: 520px;
+        height: 380px;
+        margin-top: 57px;
+        margin-block-start: 63px;
+        margin-right: 34px;
+        margin-left: 82px;
+        h3{
+            width: 454px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 133.69%;
+            color: #1F2E35;
+            margin-left: 0;
+            margin-bottom: 24px;
+        }
+        span{
+            color:$spancolor;
+        }
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            color: #30444E;
+        }
+    }
+    
+}
+
+// @media screen and(max-width:801px){
+//     .section1__div{
+//         display: flex;
+//         flex-direction: column;
+// }
+// }
